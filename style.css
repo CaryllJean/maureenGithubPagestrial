@@ -659,6 +659,13 @@ body {
 
 /* Responsive Layout for 320px Screens */
 @media (max-width: 320px) {
+  .rating-row {
+    flex-direction: row; /* Keep items in a row */
+    justify-content: space-between; /* Ensure even spacing */
+    align-items: center; /* Align items properly */
+    gap: 4px;
+  }
+  
   .rating-summary {
     padding: 10px;
   }

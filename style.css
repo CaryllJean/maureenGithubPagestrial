@@ -1500,7 +1500,7 @@ body {
   }
 
   .col-novel {
-    width: 95%; /* Use almost full width */
+    width: 80%; /* Use almost full width */
     max-width: 250px; /* Reduce the max-width */
   }
 

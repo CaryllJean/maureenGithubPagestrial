@@ -946,6 +946,21 @@ body {
   transform: scale(1.05); /* Slightly enlarge the button */
 }
 
+@media (max-width: 320px) {
+  .blog1 .buy-button {
+    width: 90%; /* Make it take most of the width */
+    max-width: 200px; /* Limit the width */
+    padding: 8px 15px; /* Reduce padding */
+    font-size: 14px; /* Reduce font size */
+    border-radius: 4px; /* Slightly reduce border radius */
+  }
+
+  /* Adjust hover effect for smaller screens */
+  .blog1 .buy-button:hover {
+    transform: scale(1.03); /* Less scaling to avoid looking too big */
+  }
+}
+
 /*About Page starts here!*/
 .container-about {
   position: relative;

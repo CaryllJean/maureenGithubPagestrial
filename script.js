@@ -30,7 +30,17 @@ window.addEventListener("scroll", function () {
   lastScrollTop = scrollTop;
 });
 
+
 function toggleMenu() {
   const sidebar = document.getElementById("sidebar");
+  const hamburger = document.querySelector(".hamburger");
+
   sidebar.classList.toggle("active");
+
+  // Change icon based on sidebar state
+  if (sidebar.classList.contains("active")) {
+    hamburger.innerHTML = "←"; // Change to back arrow
+  } else {
+    hamburger.innerHTML = "☰"; // Change back to hamburger
+  }
 }

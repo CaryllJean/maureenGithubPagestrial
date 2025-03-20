@@ -672,7 +672,11 @@ body {
   }
 
   .stars span {
-    font-size: 8px;
+    font-size: 12px;
+  }
+
+  .rating-row span {
+    font-size: 10px;
   }
 
   .total-reviews {

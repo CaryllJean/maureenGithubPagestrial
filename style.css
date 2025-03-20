@@ -104,7 +104,7 @@
 /* SPECIFICALLY FOR 375px WIDTH SCREENS */
 @media (max-width: 375px) {
   .sidebar {
-    width: 75%; /* Adjusted width for small mobile screens */
+    width: 30%; /* Adjusted width for small mobile screens */
   }
   
   .sidebar ul li a {

@@ -657,6 +657,40 @@ body {
   background: #ffa41c;
 }
 
+/* Responsive Layout for 320px Screens */
+@media (max-width: 320px) {
+  .rating-summary {
+    padding: 10px;
+  }
+
+  .rating-title {
+    font-size: 12px;
+  }
+
+  .stars {
+    font-size: 16px;
+  }
+
+  .stars span {
+    font-size: 12px;
+  }
+
+  .total-reviews {
+    font-size: 12px;
+  }
+
+  .rating-row {
+    flex-direction: column; /* Stack rating rows vertically */
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .bar {
+    width: 70px; /* Further reduce width */
+    height: 6px; /* Reduce height */
+  }
+}
+
 .lon {
   text-align: center;
   padding: 15px;

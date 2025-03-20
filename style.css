@@ -1596,6 +1596,11 @@ body {
     max-width: 300px;
   }
 
+  .col-novel img {
+    height: 50%;
+    width: 50%;
+  }
+
   .col-novel:nth-child(3) {
     max-width: 300px;
   }

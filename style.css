@@ -686,7 +686,7 @@ body {
   }
 
   .bar {
-    width: 50px; /* Further reduce width */
+    width: 40px; /* Further reduce width */
     height: 6px; /* Reduce height */
   }
 }

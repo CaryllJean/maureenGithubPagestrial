@@ -241,7 +241,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .centered {
-    font-size: 35px !important;
+    font-size: 35px;
   }
   p {
     font-size: 17px;

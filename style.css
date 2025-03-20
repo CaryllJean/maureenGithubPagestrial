@@ -2006,6 +2006,7 @@ button[type="submit"]:hover {
 
   .centered {
     font-size: 20px;
+    padding-top: 20px;
   }
 
   .p {

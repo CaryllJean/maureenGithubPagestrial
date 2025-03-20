@@ -485,7 +485,7 @@ h2 {
 @media (max-width: 320px) {
   .information img {
     width: 80%; /* Adjusts image size for mobile devices */
-    height: 20%;
+    height: 30%;
   }
 }
 

@@ -1616,7 +1616,7 @@ button[type="submit"]:hover {
   }
 
   .underline2 {
-    font-size: 24px; /* Reduce font size for smaller screens */
+    font-size: 20px; /* Reduce font size for smaller screens */
   }
 
   .pict {

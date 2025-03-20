@@ -464,7 +464,7 @@ h2 {
 
 .information img {
   max-width: 50%;
-  height: 20%;
+  height: 50%;
   float: right;
   margin-right: 10%;
   margin-left: 2%;
@@ -485,7 +485,7 @@ h2 {
 @media (max-width: 480px) {
   .information img {
     width: 80%; /* Adjusts image size for mobile devices */
-    height: 40%;
+    height: 20%;
   }
 }
 

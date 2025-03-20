@@ -31,16 +31,13 @@
 /* SIDEBAR MENU */
 .sidebar {
   position: fixed;
-  top: 60px; /* Adjust to start below navigation bar */
-  right: -100%; /* Keep it fully off-screen initially */
-  width: 60%; /* Adjust width for better mobile usability */
-  max-width: 300px; /* Ensures it doesn’t get too wide on larger screens */
-  height: calc(100vh - 60px); /* Adjust height to not overlap navigation bar */
+  top: 0;
+  right: -60%; /* Keep it off-screen initially */
+  width: 20%; /* Takes up 60% of the screen */
+  height: 100vh;
   background: rgba(0, 0, 0, 0.9);
   transition: right 0.3s ease-in-out;
-  padding-top: 20px;
-  z-index: 1000;
-  border-top: 3px solid white; /* Optional: Adds a top border for separation */
+  padding-top: 60px;
 }
 
 /* Show Sidebar when active */

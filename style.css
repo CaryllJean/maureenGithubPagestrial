@@ -1491,6 +1491,97 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .novels-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .col-novel {
+    width: 95%; /* Use almost full width */
+    max-width: 250px; /* Reduce the max-width */
+  }
+
+  .col-novel:nth-child(3) {
+    max-width: 250px;
+  }
+
+  .novels h2::after {
+    width: 80px; /* Reduce width for smaller screens */
+  }
+
+  .journey-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; /* Reduce padding */
+  }
+
+  .journey-box {
+    width: 95%;
+    max-width: 250px;
+    padding: 15px;
+    margin: 8px auto;
+  }
+
+  .journey-box h3 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .journey-box h2 {
+    font-size: 12px;
+  }
+
+  .journey-box p {
+    font-size: 11px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .journey-box .icon {
+    font-size: 22px;
+  }
+
+  .blockquote {
+    font-size: 14px;
+  }
+
+  .journey h2::after {
+    width: 200px;
+  }
+
+  .container-poem {
+    max-width: 100%;
+    padding: 0 8px; /* Reduce padding */
+  }
+
+  .poem-card {
+    padding: 12px;
+  }
+
+  .poem-title {
+    font-size: 16px; /* Reduce title size */
+  }
+
+  .poem-content {
+    font-size: 13px;
+  }
+
+  .poem-author {
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .section-title::after {
+    width: 120px;
+  }
+}
+
 @media (max-width: 425px) {
   .novels-container {
     display: flex;

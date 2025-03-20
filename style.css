@@ -1023,7 +1023,7 @@ body {
 @media screen and (max-width: 320px) {
   .journey-box {
     width: 30%; /* Make it wider for better readability */
-    max-width: 800px;
+    max-width: 500px;
     padding: 20px;
   }
 }

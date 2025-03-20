@@ -672,7 +672,7 @@ body {
   }
 
   .stars span {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .total-reviews {
@@ -686,7 +686,7 @@ body {
   }
 
   .bar {
-    width: 70px; /* Further reduce width */
+    width: 50px; /* Further reduce width */
     height: 6px; /* Reduce height */
   }
 }

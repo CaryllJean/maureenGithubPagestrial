@@ -77,6 +77,10 @@
   display: none; /* Hide by default */
 }
 
+.sidebar.active + .hamburger::before {
+  content: "←"; /* Arrow icon when sidebar is active */
+}
+
 /* Make sure the menu hides properly on small screens */
 @media (max-width: 768px) {
   .hamburger {

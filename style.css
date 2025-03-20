@@ -690,14 +690,8 @@ body {
     font-size: 12px;
   }
 
-  .rating-row {
-    flex-direction: column; /* Stack rating rows vertically */
-    align-items: flex-start;
-    gap: 4px;
-  }
-
   .bar {
-    width: 40px; /* Further reduce width */
+    width: 50px; /* Further reduce width */
     height: 6px; /* Reduce height */
   }
 }

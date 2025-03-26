@@ -1919,6 +1919,12 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 320px) {
+  .copyright {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 320px) {
   .footer-item p {
     font-size: 12px;
   }

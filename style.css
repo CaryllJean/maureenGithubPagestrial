@@ -1919,7 +1919,7 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 320px) {
-  .copyright {
+  .copyright h3{
     font-size: 8px !important;
   }
 }

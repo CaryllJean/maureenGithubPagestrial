@@ -2009,16 +2009,6 @@ button[type="submit"]:hover {
   margin-top: 30px;
 }
 
-.overlay p {
-  font-size: clamp(15px, 3vw, 25px); /* Adjusts between 14px and 20px */
-  font-family: "Lora", serif;
-  text-align: center;
-  max-width: 100%;
-  margin: auto;
-  margin-top: 30px;
-  color: #000;
-}
-
 .container5 {
   max-width: 1200px;
   margin: auto;

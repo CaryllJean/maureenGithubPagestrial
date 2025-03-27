@@ -282,6 +282,10 @@ body {
     top: auto;
     left: auto;
   }
+
+  .overlay p {
+    font-size: 12px;
+  }
 }
 
 button {

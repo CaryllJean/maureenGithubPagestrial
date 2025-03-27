@@ -2234,9 +2234,9 @@ form button {
 }
 
 .phone-group input {
-  width: 65%;
+  width: 100%;
   padding: 10px;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 

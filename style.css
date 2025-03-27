@@ -213,7 +213,7 @@ body {
   z-index: 3; /* Ensure it's above the image */
 }
 
-overlay p {
+.overlay p {
 color: black;
 }
 

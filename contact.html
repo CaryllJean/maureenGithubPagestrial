@@ -46,20 +46,33 @@
               <h1>Contact Us</h1>
               <p>We’d love to hear from you! Fill out the form and we’ll get back to you soon.</p>
               <div class="form-container">
-                <form name="contact" method="POST" data-netlify="true" action="thank-you.html">
+                <form name="contact" method="POST" data-netlify="true">
                   <input type="hidden" name="form-name" value="contact">
             
-                  <input type="email" name="email" placeholder="Email" required>
-                  <input type="text" name="phone" placeholder="Phone" required>
-                  <input type="text" name="name" placeholder="Name" required>
-                  <textarea name="message" placeholder="Message" required></textarea>
+                  <input type="email" name="email" placeholder="Email Address" required>
             
-                  <button type="submit" style="margin-top: 10px; font-family: Poppins, sans-serif; border-radius: 8px; width: fit-content; background-color: #000; color: #fff; padding: 10px 20px; border: none; cursor: pointer;">
+                  <div style="display: flex; gap: 10px;">
+                    <select name="country-code" required>
+                      <option value="+1">🇺🇸 +1 (US)</option>
+                      <option value="+44">🇬🇧 +44 (UK)</option>
+                      <option value="+63">🇵🇭 +63 (PH)</option>
+                      <option value="+91">🇮🇳 +91 (IN)</option>
+                      <!-- Add more countries if you want -->
+                    </select>
+            
+                    <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{7,15}" required>
+                  </div>
+            
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <textarea name="message" placeholder="Your Message" required></textarea>
+            
+                  <button type="submit" style="margin-top: 10px; font-family: Poppins, sans-serif; border-radius: 8px; width: fit-content;">
                     Submit
                   </button>
                 </form>
               </div>
             </section>
+
 
             <section class="contact-details">
                 <div class="card">

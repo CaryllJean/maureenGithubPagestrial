@@ -2220,26 +2220,38 @@ form button {
   cursor: pointer;
 }
 
-.newsletter {
-  width: 30%;
-  background: #c95555;
-  padding: 20px;
-  border-radius: 10px;
-  color: white;
+.phone-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.newsletter input {
-  width: 90%;
-  padding: 8px;
-  margin-bottom: 10px;
+.phone-group select {
+  width: 35%;
+  padding: 10px;
   border: none;
   border-radius: 5px;
 }
 
-.newsletterbutton {
-  background-color: #2a2020;
-  border-radius: 8px;
+.phone-group input {
+  width: 65%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
+
+.submit-btn {
+  margin-top: 10px;
+  font-family: Poppins, sans-serif;
+  border-radius: 8px;
+  width: fit-content;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
 
 /* Contact Details */
 .contact-details {

@@ -1935,11 +1935,17 @@ button[type="submit"]:hover {
 @media (max-width: 320px) {
   .footer-item p {
     font-size: 12px;
+    margin: 0;
+  }
+
+  .footer-item i {
+    font-size: 10px;
   }
 
   .footer-section a,
   h3 {
     font-size: 15px;
+    margin: 0;
   }
 
   .footer-container {

@@ -1219,21 +1219,22 @@ body {
   align-self: flex-start;
 }
 
+
 .journey-box:nth-child(2) {
-  margin-top: -320px;
+  margin-top: -270px;
 }
 .journey-box:nth-child(3) {
   margin-top: -70px;
 }
 .journey-box:nth-child(4) {
-  margin-top: -300px;
+  margin-top: -250px;
 }
 
 .journey-box:nth-child(5) {
-  margin-top: 55px;
+  margin-top: 50px;
 }
 .journey-box:nth-child(6) {
-  margin-top: -285px;
+  margin-top: -238px;
 }
 
 .journey-poem-title {
